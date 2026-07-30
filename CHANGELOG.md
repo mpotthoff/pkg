@@ -1,5 +1,19 @@
 # Changelog
 
+## [6.22.0](https://github.com/yao-pkg/pkg/compare/v6.21.0...v6.22.0) (2026-07-30)
+
+### Features
+
+- bump fetch 3.6.5 with nodejs 22.23.2, 24.18.1, 26.5.1 ([#291](https://github.com/yao-pkg/pkg/issues/291)) ([e1a96ae](https://github.com/yao-pkg/pkg/commit/e1a96ae0efae0013f4a66a066442a4eef1f52d38))
+
+### Bug Fixes
+
+- **prelude:** throw instead of crashing on Intl.Segmenter with small-icu ([#290](https://github.com/yao-pkg/pkg/issues/290)) ([cbc7629](https://github.com/yao-pkg/pkg/commit/cbc7629cc5b427c8b062a30738f026a4fba86fe4))
+
+### Chores
+
+- **ci:** use node 24.x for release, drop npm upgrade step ([c1e10f5](https://github.com/yao-pkg/pkg/commit/c1e10f542a00843d758325027ae81b69b5bcf51f))
+
 ## [6.21.0](https://github.com/yao-pkg/pkg/compare/v6.19.0...v6.21.0) (2026-06-30)
 
 ### Features
